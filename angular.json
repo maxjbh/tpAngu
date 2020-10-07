@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pokdemo"
+    }
+  },
+  "defaultProject": "pokdemo",
+  "cli": {
+    "analytics": "f89faf6f-71f8-43d7-bda8-00c1b0455727"
+  }
 }

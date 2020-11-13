@@ -10,4 +10,8 @@ my id is: {{id}}
 <br>
 the pokes id is: {{selectedPokeId}}
 <br>
-<button type="button" (click)>Go!</button>
+<button (click)="go()">GO</button>
+<div *ngIf ="pokeDetail">
+    <app-pokedetail [detail]="pokeDetail" ></app-pokedetail>
+
+</div>
